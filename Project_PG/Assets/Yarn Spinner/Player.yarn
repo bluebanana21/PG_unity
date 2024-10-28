@@ -2,6 +2,20 @@
 tags:
 ---
 Player:Hello, How are you?
-->im good, thanks
-->had a rough day
+    ->im good, thanks
+        <<jump good>>
+    ->had a rough day
+        <<jump bad>>
+===
+
+title: good
+position: 47,161
+---
+Player:Thats good to hear!
+===
+
+title: bad
+position: 272,16
+---
+Player:I'm sorry to hear that.
 ===

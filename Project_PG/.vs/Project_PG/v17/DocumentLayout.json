@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|d:\\unity projects\\pg_unity\\project_pg\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|D:\\UNITY projects\\PG_unity\\Project_PG\\assets\\samples\\yarn spinner\\2.4.2\\space\\scripts\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\yarn spinner\\2.4.2\\space\\scripts\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|D:\\UNITY projects\\PG_unity\\Project_PG\\assets\\scripts\\npcinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|D:\\UNITY projects\\PG_unity\\Project_PG\\assets\\samples\\yarn spinner\\2.4.2\\space\\scripts\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\yarn spinner\\2.4.2\\space\\scripts\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NPC.cs",
+              "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Samples\\Yarn Spinner\\2.4.2\\Space\\Scripts\\NPC.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Yarn Spinner\\2.4.2\\Space\\Scripts\\NPC.cs",
+              "ToolTip": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Samples\\Yarn Spinner\\2.4.2\\Space\\Scripts\\NPC.cs",
+              "RelativeToolTip": "Assets\\Samples\\Yarn Spinner\\2.4.2\\Space\\Scripts\\NPC.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T12:16:15.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NPCInteractable.cs",
+              "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\NPCInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPCInteractable.cs",
+              "ToolTip": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\NPCInteractable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPCInteractable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:20:07.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerCharacter.cs",
+              "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Samples\\Yarn Spinner\\2.4.2\\Space\\Scripts\\PlayerCharacter.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Yarn Spinner\\2.4.2\\Space\\Scripts\\PlayerCharacter.cs",
+              "ToolTip": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Samples\\Yarn Spinner\\2.4.2\\Space\\Scripts\\PlayerCharacter.cs",
+              "RelativeToolTip": "Assets\\Samples\\Yarn Spinner\\2.4.2\\Space\\Scripts\\PlayerCharacter.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAIwBkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T11:51:02.159Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +72,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAzAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwDAAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T10:28:55.523Z",
               "EditorCaption": ""
