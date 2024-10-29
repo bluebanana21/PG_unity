@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|D:\\UNITY projects\\PG_unity\\Project_PG\\assets\\samples\\yarn spinner\\2.4.2\\space\\scripts\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\yarn spinner\\2.4.2\\space\\scripts\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|D:\\UNITY projects\\PG_unity\\Project_PG\\assets\\scripts\\npcinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|D:\\UNITY projects\\PG_unity\\Project_PG\\assets\\samples\\yarn spinner\\2.4.2\\space\\scripts\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\yarn spinner\\2.4.2\\space\\scripts\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Samples\\Yarn Spinner\\2.4.2\\Space\\Scripts\\NPC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Samples\\Yarn Spinner\\2.4.2\\Space\\Scripts\\NPC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Samples\\Yarn Spinner\\2.4.2\\Space\\Scripts\\PlayerCharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Samples\\Yarn Spinner\\2.4.2\\Space\\Scripts\\PlayerCharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "NPC.cs",
               "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Samples\\Yarn Spinner\\2.4.2\\Space\\Scripts\\NPC.cs",
               "RelativeDocumentMoniker": "Assets\\Samples\\Yarn Spinner\\2.4.2\\Space\\Scripts\\NPC.cs",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "NPCInteractable.cs",
               "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\NPCInteractable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NPCInteractable.cs",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PlayerCharacter.cs",
               "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Samples\\Yarn Spinner\\2.4.2\\Space\\Scripts\\PlayerCharacter.cs",
               "RelativeDocumentMoniker": "Assets\\Samples\\Yarn Spinner\\2.4.2\\Space\\Scripts\\PlayerCharacter.cs",
@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwDAAAAA0AAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T10:28:55.523Z",
               "EditorCaption": ""

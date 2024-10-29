@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Yarn.Unity;
+using UnityEngine.InputSystem;
 
 
 public class PlayerMovement : MonoBehaviour
@@ -20,31 +21,30 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        dialogueInput = FindObjectOfType<DialogueAdvanceInput>();
+        dialogueInput = FindObjectOfType<DialogueAdvanceInput>(Input.GetKeyDown(KeyCode.E));
         dialogueInput.enableActionOnStart = false;
     }
 
     void Update()
     {
         
-        
         if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true)
         {
             return;
         }
-
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            CheckForNearbyNPC();
-            Debug.Log("Testing...");
-        }
-        
 
         if (dialogueInput.enabled)
         {
             dialogueInput.enabled = false;
             
         }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            CheckForNearbyNPC();
+            Debug.Log("Testing...");
+        }
+        
 
         horizontal = Input.GetAxisRaw("Horizontal");
         Flip();
@@ -77,10 +77,11 @@ public class PlayerMovement : MonoBehaviour
         });
         if (target != null)
         {
-            // Kick off the dialogue at this node.
-            FindObjectOfType<DialogueRunner>().StartDialogue(target.talkToNode);
-            // reenabling the input on the dialogue
             
+            FindObjectOfType<DialogueRunner>().StartDialogue(target.talkToNode);
+           
+            dialogueInput.enabled = true;
+
         }
     }
 }

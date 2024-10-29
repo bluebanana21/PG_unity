@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 100413343}
   - component: {fileID: 100413342}
   - component: {fileID: 100413345}
+  - component: {fileID: 100413346}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -312,6 +313,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Player
   talkToNode: 
+--- !u!114 &100413346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100413339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 097b95c9f69f04f2d8c08a817e7786af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueView: {fileID: 0}
+  continueActionType: 3
+  continueActionKeyCode: 32
+  continueActionButtonName: Jump
+  continueActionOnButtonRelease: 0
+  continueActionReference: {fileID: 0}
+  continueAction:
+    m_Name: Skip
+    m_Type: 1
+    m_ExpectedControlType: 
+    m_Id: a8b2b9d6-3e4f-470c-8ae1-712867c4f084
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 3be28044-18e7-417d-91b0-29e23b995727
+      m_Path: <Keyboard>/e
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Skip
+      m_Flags: 0
+    m_Flags: 0
+  enableActionOnStart: 1
 --- !u!1 &331126221
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,7 +362,6 @@ GameObject:
   - component: {fileID: 331126223}
   - component: {fileID: 331126222}
   - component: {fileID: 331126226}
-  - component: {fileID: 331126227}
   m_Layer: 7
   m_Name: NPC 1
   m_TagString: Untagged
@@ -486,42 +522,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: NPC 1
   talkToNode: Player
---- !u!114 &331126227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 331126221}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 097b95c9f69f04f2d8c08a817e7786af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueView: {fileID: 0}
-  continueActionType: 1
-  continueActionKeyCode: 32
-  continueActionButtonName: Jump
-  continueActionOnButtonRelease: 0
-  continueActionReference: {fileID: 0}
-  continueAction:
-    m_Name: Skip
-    m_Type: 1
-    m_ExpectedControlType: 
-    m_Id: a669fc4d-2dbf-45a7-917d-456bdec33819
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: 89181268-6a8a-4149-b7b4-1e7aab1808a8
-      m_Path: Submit
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Skip
-      m_Flags: 0
-    m_Flags: 0
-  enableActionOnStart: 1
 --- !u!1 &433350302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1366,7 +1366,7 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 100413341}
-  - {fileID: 433350303}
   - {fileID: 1581197420}
+  - {fileID: 433350303}
   - {fileID: 463818270}
   - {fileID: 1878554775}
