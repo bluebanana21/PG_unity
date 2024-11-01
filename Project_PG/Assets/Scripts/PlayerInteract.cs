@@ -55,4 +55,9 @@ public class PlayerInteract : MonoBehaviour
 
         }
     }
+
+    public void CheckForNearbyBuilding()
+    {
+       
+    }
 }

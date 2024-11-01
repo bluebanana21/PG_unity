@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\UNITY projects\\PG_unity\\Project_PG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|d:\\unity projects\\pg_unity\\project_pg\\assets\\scripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|d:\\unity projects\\pg_unity\\project_pg\\assets\\scripts\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|D:\\UNITY projects\\PG_unity\\Project_PG\\assets\\scripts\\buildinginteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buildinginteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|D:\\UNITY projects\\PG_unity\\Project_PG\\assets\\scripts\\npcinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|D:\\UNITY projects\\PG_unity\\Project_PG\\assets\\scripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|d:\\unity projects\\pg_unity\\project_pg\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|D:\\UNITY projects\\PG_unity\\Project_PG\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|d:\\unity projects\\pg_unity\\project_pg\\assets\\scripts\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +30,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "NPCInteractable.cs",
+              "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\NPCInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPCInteractable.cs",
+              "ToolTip": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\NPCInteractable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPCInteractable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T04:55:45.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BuildingInteractable.cs",
+              "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\BuildingInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BuildingInteractable.cs",
+              "ToolTip": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\BuildingInteractable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BuildingInteractable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T04:55:43.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PlayerCombat.cs",
               "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\PlayerCombat.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCombat.cs",
@@ -34,12 +66,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerCombat.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T03:40:22.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T03:40:22.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
@@ -47,18 +78,17 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T03:40:17.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T03:40:17.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PlayerInteract.cs",
               "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\PlayerInteract.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInteract.cs",
               "ToolTip": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\PlayerInteract.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerInteract.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAuwDkAAAABAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAmwDwAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T03:40:02.548Z",
               "EditorCaption": ""
