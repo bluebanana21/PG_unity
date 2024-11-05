@@ -365,6 +365,7 @@ MonoBehaviour:
   attackPoint: {fileID: 638747943}
   attackRange: 0.16
   attackDamage: 40
+  attackRate: 2
   enemyLayers:
     serializedVersion: 2
     m_Bits: 256
@@ -553,6 +554,7 @@ GameObject:
   - component: {fileID: 340211829}
   - component: {fileID: 340211831}
   - component: {fileID: 340211832}
+  - component: {fileID: 340211833}
   m_Layer: 8
   m_Name: HeavyBandit_0
   m_TagString: Untagged
@@ -684,7 +686,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffb892e2362861f4189324d66305f014, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 340211833}
   maxHelath: 100
+  attackRate: 2
+--- !u!95 &340211833
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340211828}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 487ec57f0d8e2dd48a3a7369120c04a3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &433350302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,10 +1162,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.0011235956
-    y: 0.00210615
-    width: 0.9977529
-    height: 0.9941028
+    x: 0.0011235955
+    y: 0.002105263
+    width: 0.99775285
+    height: 0.9936842
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34

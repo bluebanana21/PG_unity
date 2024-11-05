@@ -18,11 +18,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private LayerMask groundLayer;
 
-   
+
     void Update()
     {
-        if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true)
+        if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true) 
         {
+            speed = 0.0f;
+            animator.SetFloat("speed", speed);
             return;
         }
 
