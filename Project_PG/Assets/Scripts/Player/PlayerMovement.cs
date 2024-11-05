@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     private float vertical;
     private bool isFacingRight = true;
 
+    public Animator animator;
+
     [SerializeField] private float speed = 160f; 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private LayerMask groundLayer;
@@ -19,7 +21,15 @@ public class PlayerMovement : MonoBehaviour
    
     void Update()
     {
+        if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true)
+        {
+            return;
+        }
+
         horizontal = Input.GetAxisRaw("Horizontal");
+
+        animator.SetFloat("speed", Mathf.Abs(horizontal));
+
         Flip();
     }
 
@@ -30,9 +40,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Flip()
     {
-        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal < 0f)
+        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
         {
-            isFacingRight = false;
+            isFacingRight = !isFacingRight;
             Vector3 localScale = transform.localScale;
             localScale.x *= -1f;
             transform.localScale = localScale;
