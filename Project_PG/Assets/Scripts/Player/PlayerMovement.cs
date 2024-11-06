@@ -14,25 +14,28 @@ public class PlayerMovement : MonoBehaviour
 
     public Animator animator;
 
-    [SerializeField] private float speed = 160f; 
+    [SerializeField] private float speed = 100f; 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private LayerMask groundLayer;
 
 
     void Update()
     {
-        if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true) 
+        if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true)
         {
-            speed = 0.0f;
-            animator.SetFloat("speed", speed);
+            speed = 0f;
+            animator.SetFloat("speed", 0f);
             return;
+
+        } else
+        {
+            speed = 100f;
+            horizontal = Input.GetAxisRaw("Horizontal");
+            animator.SetFloat("speed", Mathf.Abs(horizontal));
+            Flip();
+
         }
 
-        horizontal = Input.GetAxisRaw("Horizontal");
-
-        animator.SetFloat("speed", Mathf.Abs(horizontal));
-
-        Flip();
     }
 
     private void FixedUpdate()

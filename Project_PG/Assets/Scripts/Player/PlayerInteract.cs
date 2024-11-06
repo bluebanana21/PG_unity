@@ -5,7 +5,8 @@ using Yarn.Unity;
 
 public class PlayerInteract : MonoBehaviour
 {
-    private float interactionRadius = 2f;
+    public Transform interactPoint;
+    private float interactionRadius = 0.5f;
     private DialogueAdvanceInput dialogueInput;
     // Start is called before the first frame update
     void Start()
@@ -43,7 +44,7 @@ public class PlayerInteract : MonoBehaviour
         var target = allParticipants.Find(delegate (NPCInteractable p)
         {
             return string.IsNullOrEmpty(p.talkToNode) == false && // has a conversation node?
-            (p.transform.position - this.transform.position)// is in range?
+            (p.transform.position - interactPoint.transform.position)// is in range?
             .magnitude <= interactionRadius;
         });
         if (target != null)
@@ -56,8 +57,15 @@ public class PlayerInteract : MonoBehaviour
         }
     }
 
-    public void CheckForNearbyBuilding()
+    public void OnDrawGizmosSelected()
     {
-       
+        if(interactPoint == null)
+        {
+
+            return;
+        }
+
+        Gizmos.DrawWireSphere(interactPoint.position, interactionRadius);
     }
 }
+

@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "D:\\UNITY projects\\PG_unity\\Project_PG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|D:\\UNITY projects\\PG_unity\\Project_PG\\assets\\scripts\\npc\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|d:\\unity projects\\pg_unity\\project_pg\\assets\\enemy_run.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy_run.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|d:\\unity projects\\pg_unity\\project_pg\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|D:\\UNITY projects\\PG_unity\\Project_PG\\assets\\scripts\\player\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|d:\\unity projects\\pg_unity\\project_pg\\assets\\scripts\\player\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|D:\\UNITY projects\\PG_unity\\Project_PG\\assets\\scripts\\player\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|D:\\UNITY projects\\PG_unity\\Project_PG\\assets\\scripts\\npcinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|D:\\UNITY projects\\PG_unity\\Project_PG\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,50 +27,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "enemy_run.cs",
-              "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\enemy_run.cs",
-              "RelativeDocumentMoniker": "Assets\\enemy_run.cs",
-              "ToolTip": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\enemy_run.cs",
-              "RelativeToolTip": "Assets\\enemy_run.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAgAAAAmAAAA",
+              "Title": "NPCInteractable.cs",
+              "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\NPCInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPCInteractable.cs",
+              "ToolTip": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\NPCInteractable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPCInteractable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T03:44:19.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T04:20:56.176Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\NPC\\Enemy\\Enemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\NPC\\Enemy\\Enemy.cs",
-              "ToolTip": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\NPC\\Enemy\\Enemy.cs",
-              "RelativeToolTip": "Assets\\Scripts\\NPC\\Enemy\\Enemy.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAYwDIAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T11:06:43.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerCombat.cs",
-              "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\Player\\PlayerCombat.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerCombat.cs",
-              "ToolTip": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\Player\\PlayerCombat.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerCombat.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAqwBkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T10:36:38.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "PlayerInteract.cs",
               "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\Player\\PlayerInteract.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerInteract.cs",
               "ToolTip": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\Player\\PlayerInteract.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerInteract.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwBUAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T10:38:47.732Z",
               "EditorCaption": ""
@@ -91,10 +57,9 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
               "ToolTip": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAnwDMAAAAFAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB8AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T10:01:29.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T10:01:29.545Z"
             }
           ]
         }
