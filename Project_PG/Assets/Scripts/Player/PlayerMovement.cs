@@ -5,7 +5,7 @@ using Yarn.Unity;
 using UnityEngine.InputSystem;
 
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour, IDataPersistence
 {
     private CharacterController controller;
     private float horizontal;
@@ -52,6 +52,16 @@ public class PlayerMovement : MonoBehaviour
             localScale.x *= -1f;
             transform.localScale = localScale;
         }
+    }
+
+    public void LoadData(GameData data)
+    {
+        this.transform.position = data.playePosition;
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        data.playePosition = this.transform.position;
     }
 
 }

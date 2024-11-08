@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "D:\\UNITY projects\\PG_unity\\Project_PG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|d:\\unity projects\\pg_unity\\project_pg\\assets\\scripts\\player\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|D:\\UNITY projects\\PG_unity\\Project_PG\\assets\\scripts\\datapersistence\\data\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datapersistence\\data\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|d:\\unity projects\\pg_unity\\project_pg\\assets\\scripts\\datapersistence\\datapersistencemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datapersistence\\datapersistencemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|d:\\unity projects\\pg_unity\\project_pg\\assets\\scripts\\datapersistence\\idatapersistence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datapersistence\\idatapersistence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|D:\\UNITY projects\\PG_unity\\Project_PG\\assets\\scripts\\player\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF59284D-6403-9150-CC20-AC77FB2962AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -22,11 +34,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IDataPersistence.cs",
+              "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\DataPersistence\\IDataPersistence.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DataPersistence\\IDataPersistence.cs",
+              "ToolTip": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\DataPersistence\\IDataPersistence.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DataPersistence\\IDataPersistence.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:35:14.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DataPersistenceManager.cs",
+              "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\DataPersistence\\DataPersistenceManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DataPersistence\\DataPersistenceManager.cs",
+              "ToolTip": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\DataPersistence\\DataPersistenceManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DataPersistence\\DataPersistenceManager.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:27:58.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameData.cs",
+              "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\DataPersistence\\Data\\GameData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DataPersistence\\Data\\GameData.cs",
+              "ToolTip": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\DataPersistence\\Data\\GameData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DataPersistence\\Data\\GameData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:26:33.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "NPCInteractable.cs",
               "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\NPCInteractable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NPCInteractable.cs",
@@ -38,20 +89,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PlayerInteract.cs",
               "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\Player\\PlayerInteract.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerInteract.cs",
               "ToolTip": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\Player\\PlayerInteract.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerInteract.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwC0AAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T10:38:47.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T10:38:47.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "D:\\UNITY projects\\PG_unity\\Project_PG\\Assets\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
