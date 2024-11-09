@@ -6,9 +6,11 @@ using UnityEngine;
 public class GameData
 {
     public Vector3 playePosition;
-    // Start is called before the first frame update
+    public SerializeableDictionary<string, bool> NPCState;
+    
     public GameData()
     {
         playePosition = Vector3.zero;
+        NPCState = new SerializeableDictionary<string, bool>();
     }
 }
