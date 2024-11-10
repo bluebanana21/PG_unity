@@ -8,6 +8,8 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour, IDataPersistence
 {
     private CharacterController controller;
+    private SpriteRenderer spriteRenderer;
+
     private float horizontal;
     private float vertical;
     private bool isFacingRight = true;
@@ -57,11 +59,14 @@ public class PlayerMovement : MonoBehaviour, IDataPersistence
     public void LoadData(GameData data)
     {
         this.transform.position = data.playePosition;
+        
     }
 
     public void SaveData(ref GameData data)
     {
+        
         data.playePosition = this.transform.position;
+        
     }
 
 }
