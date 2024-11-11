@@ -26,6 +26,7 @@ public class PlayerMovement : MonoBehaviour, IDataPersistence
         if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true)
         {
             speed = 0f;
+           
             animator.SetFloat("speed", 0f);
             return;
 
